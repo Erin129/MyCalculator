@@ -2,6 +2,7 @@ import { useState } from "react"
 import "./App.css"
 
 function App() {
+  //later iterations add history, more calculations, prettier frontend, etc.
   const [input1, setInput1] = useState("");
   const[ input2, setInput2]=useState("");
   const[operator, setOperator]=useState("+");//default operator is addition
